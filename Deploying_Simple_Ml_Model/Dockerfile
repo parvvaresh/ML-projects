@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Install the required Python libraries
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install  -r requirements.txt
 
 # Run the Python script when the container starts
 CMD ["python", "app.py"]
