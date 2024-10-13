@@ -61,12 +61,3 @@ Ensure that you have the following installed on your machine:
 ## Pre-Processing
 
 The `pre_process` function (imported from the `model/pre_process.py` file) is responsible for cleaning and preparing the input text before it is transformed into a vector by the TF-IDF vectorizer.
-
-## Future Improvements
-Here’s a basic README file for your project based on the code structure and content I've seen:
-
----
-- Add a REST API interface to allow sending input and receiving predictions via HTTP requests.
-- Improve error handling for cases where models or vectorizers might be missing or corrupted.
-
----
